@@ -1,7 +1,8 @@
 import numpy as np
 import math
 from skimage.transform import hough_line, hough_line_peaks
-
+import sys
+sys.path.append('/Users/sahanabalasubramanian/Documents/Sahana_Kasia_CBI_image_analysis/aics-segmentation')
 from aicssegmentation.core.vessel import filament_3d_wrapper
 from aicssegmentation.core.pre_processing_utils import intensity_normalization, edge_preserving_smoothing_3d, image_smoothing_gaussian_3d
 from skimage.morphology import remove_small_objects  
