@@ -1,44 +1,160 @@
-/.ipynb_checkpoints
-/221026_segmentation_ideas.ipynb
-/data
-/masks
-code/221129_characterize_images_playground.ipynb
-results/092622_ring_PDMSAp_10MCol_647-Act_561-Pax_488-Plak_DAPI_001_df.pkl
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_002_mask.png
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_002_polygons.pkl
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_003_mask.png
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_003_polygons.pkl
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_004_mask.png
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_004_polygons.pkl
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_005_mask.png
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_005_polygons.pkl
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_006_mask.png
-shapes_sahana/091622_ring_PDMSAp_10MFib_647-Act_561-Pax_488-Plak_DAPI_006_polygons.pkl
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_007_mask.png
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_007_polygons.pkl
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_008_mask.png
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_008_polygons.pkl
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_009_mask.png
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_009_polygons.pkl
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_010_mask.png
-shapes_sahana/04072022_PDMS_ApCol_5k_CM_647-Act_561-Pax_488-Plak_DAPI_010_polygons.pkl
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_002_mask.png
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_002_polygons.pkl
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_003_mask.png
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_003_polygons.pkl
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_004_mask.png
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_004_polygons.pkl
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_009_mask.png
-shapes_sahana/04072022_PDMS_ApFib_5k_CM_647-Act_561-Pax_488-Plak_DAPI_009_polygons.pkl
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_001_mask.png
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_001_polygons.pkl
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_002_mask.png
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_002_polygons.pkl
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_003_mask.png
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_003_polygons.pkl
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_004_mask.png
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_004_polygons.pkl
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_005_mask.png
-shapes_sahana/10142022_PDMSAp_ColIMed10_647-Act_561-Vinc_488-Jup_DAPI_005_polygons.pkl
-code/__pycache__/cardiomyocytes_helper_functions.cpython-39.pyc
-code/__pycache__/cardiomyocytes_helper_functions.cpython-39.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
